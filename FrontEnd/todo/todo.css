@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    background-color: powderblue;
+    font-style: italic;
+}
+#container{
+    width: 50%;
+    height: 80%;
+    background-color: lightgray;
+    margin:auto;
+    margin-top: 15%;
+}
+#btn{
+    display: inline;
+    width: 80px;
+    height: 40px;
+    color: whitesmoke;
+    background-color:yellowgreen ;
+    border-radius: 6%;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+}
+#input{
+    display: inline-block;
+    border: 14px black;
+    padding: 3px;
+    margin: auto;
+    margin-left: 30%;
+}
+#changes{
+    font-family: cursive;
+    justify-content: center;
+    color: orangered;
+    margin: 2%;
+    margin-left: 15%;
+    cursor: pointer;
+    font-size: 20px;
+
+}

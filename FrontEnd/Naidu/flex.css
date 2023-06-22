@@ -1,0 +1,44 @@
+#container{
+	height: 400px;
+	width: 400px;
+	background-color: blue;
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+}
+#container div{
+	height: 200px;
+	width: 200px;
+	color: red;
+}
+#div-1{
+	background-color: gray;
+}
+#div-2{
+	background-color: black;
+}
+#div-3{
+	background-color: green;
+}
+#div-4{
+	margin-top: 5px;
+	margin-left: 5px;
+	width:140px;
+	height: 40px;
+	background-color: gray;
+	border-radius: 40%;
+	text-align: center;
+}
+#div-5{
+	height: 100%;
+	width: 70%;
+	background-color: red;
+	border-top-left-radius: 40%;
+	border-bottom-left-radius: 40%;
+}
+div:target{
+	width: 400px;
+	height: 400px;
+	background-color: red;
+	transition: 2s;
+}

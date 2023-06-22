@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+header{
+    color:blanchedalmond;
+    width: 100%;
+    height: 65vh;
+    background-image: url(Resume.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    text-align: center;
+
+}
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    color: goldenrod;
+	font-family: cursive;
+	margin-top: 15vh;
+	text-shadow: 2px 3px 2px crimson;
+}
+header nav  ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 2%;
+}
+header nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:goldenrod;
+    font-size: 1rem;
+    margin: 2%;
+    font-family: cursive;
+}
+a:hover{
+    /* color: darkred; */
+    text-shadow: 1px 1px 1px red;
+    text-decoration: underline;
+    transition: ease-in-out 1s;
+}
+header div svg{
+    width: 30px;
+    height: 30px;
+    margin:0px 21%;
+    margin-top: 15px;
+    padding: 2px;
+}
+header div a svg:hover{
+    box-shadow: 0px 0px 15px darkred;
+    border-radius: 50%;
+}
+img{
+    text-align: center;
+    border-radius: 45%;
+    margin: auto;
+    display: block;
+    margin-top: -20vh;
+    position: relative;
+    border: 2px dashed coral;
+    padding: 2px;
+
+}
+section{
+    height: 80vh;
+    width: 100%;
+    
+}
+section:nth-child(2n+1){
+    /* background-color: gray; */
+    background-image: linear-gradient(to right, gray, powderblue,lightgreen);
+}
+/* About Section */
+#About p{
+    font-size:14px;
+    font-family: cursive;
+    margin: 0px 25px;
+}
+/* Icon's */
+h2{
+    text-align: center;
+    font-family: cursive;
+    color: brown;
+    text-decoration: underline;
+}
+svg{
+    width: 30px;
+    height: 30px;
+    
+}
+/* Education Section */
+li{
+    list-style: none;
+    font-size: 150%;
+    font-family: cursive;
+}
+#Education div ul li::before{
+    content: "\00BB";
+    size: 20px;
+}
+#Education table{
+    margin: auto;
+}
+
+#Education div table tr th{
+    font-family: cursive;
+    border: 3px solid black;
+    font-size: 100%;
+}
+td{
+    border: 3px solid black;
+    text-align: center;
+    font-size: 90%;
+    font-family: cursive;
+    color: black;
+}
+th{
+    background-color: brown;
+}
+tr:nth-child(even){
+    background-color:powderblue;
+}
+/* Skill Section */
+#skill-section{
+    width:96%;
+    height: 65vh;
+    margin: auto;
+    border: 3px dashed green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#skill-section-1{
+    width: 200px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 0px 30px 30px 0;
+}
+/* project section */
+#proj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+@media screen and (min-width:480px){
+    #About p{
+        font-size: 13px;
+    }
+    section:nth-child(3){
+        height: 50vh;
+    }
+}
+@media screen and (min-width:992px){
+    #About p{
+        font-size: 22px;
+    }
+    section:nth-child(3){
+        height: 35vh;
+    }
+}
+

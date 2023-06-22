@@ -1,0 +1,195 @@
+body{
+	margin: 0px;
+}
+body header{
+	color: white;
+	height: 65vh;
+	background-image: url(naidu.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	opacity: 0.8;
+	font-size:0.8em;
+}
+body header a{
+	color: white;
+	font-family: cursive;
+	text-decoration: none;
+	margin-right: 7px;
+}
+body header h1{
+	color: whitesmoke;
+	font-family: cursive;
+	margin-top: 10vh;
+	text-shadow: 2px 3px 2px darkred;
+}
+body header a:hover{
+	color:red;
+	border-bottom: 1px solid red;
+	/*box-shadow: 0px 0px 6px 4px red;*/
+	transition: color 2s;
+}
+#about{
+	height: auto;
+	width: 100%;
+}
+#div-1{
+	height: 18rem;
+	width: 18rem;
+	display: block;
+	margin: auto;
+	margin-top: -20vh;
+}
+#div-1 img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 2px solid ghostwhite;
+	padding: 2px;
+	position: relative;
+}
+#div-1 img:hover{
+	transition: color 4s;
+	box-shadow: 0px 0px 6px 4px gray;
+	
+
+}
+#about p{
+	font-size: 20px;
+	font-family: cursive;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+section{
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+}
+section:nth-child(2n){
+	background-color: whitesmoke;
+}
+section:nth-child(2n+1){
+	background-color: lightgray;
+}
+.logo{
+	display: flex;
+	margin: auto;
+	margin-top: 5px;
+	text-decoration: underline;
+	font-family: cursive;
+	color:#81235f;
+}
+.skills-class{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+	margin-top: -15vh;
+
+}
+.skills-class-1{
+	display: flex;
+	width:10rem;
+	height: 2rem;
+	background-color: gray;
+	border-radius: 12px ;
+	margin-bottom: 10px;
+	}
+.java{
+	height: inherit;
+	border-radius: inherit;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	color: white;
+}
+.col-1{
+	width: 80%;
+	background-color: red;
+	font-family:cursive;
+	justify-content: center;
+	
+
+}
+
+.col-2{
+	width: 70%;
+	background-color: palegreen;
+	font-family:cursive;
+	justify-content: center;
+}
+.col-3{
+	width: 70%;
+	background-color: green;
+	font-family:cursive;
+	justify-content: center;
+}
+
+.col-4{
+	width: 65%;
+	background-color: blue;
+	font-family:cursive;
+	justify-content: center;
+}
+
+.col-5{
+	width: 70%;
+	background-color: burlywood;
+	font-family:cursive;
+	justify-content: center;
+}
+
+.col-6{
+	width: 40%;
+	background-color: yellowgreen;
+	font-family:cursive;
+	justify-content: center;
+}
+.skills-class-1:hover{
+	transition: color 2s;
+	box-shadow: 0px 0px 6px 2px darkred;
+}
+
+/*experience*/
+.exp{
+	display: block;
+	height: 65vh;
+	border: 2px solid black;
+}
+.box{
+	height: 55vh;
+	position: absolute;
+	border-right:2px dashed red ;
+	margin: 50%;
+	margin-top:15vh ;
+}
+.exp-1{
+	height: 17vh;
+	width: 30vw;
+	border: 2px solid blue;
+	margin-top: 6px;
+	position: relative;
+	overflow: scroll;
+}
+.exp-1:nth-child(2n){
+	margin-top: -6%;
+	margin-left: 60%;
+
+}
+.exp-1:nth-child(2n+1){
+	margin-left: 10%;
+	margin-top: 2%;
+}
+.exp-2{
+	overflow-wrap: break-word;
+	/*word-break: break-all;*/
+	position: scroll;
+	font-size: 1.5rem;
+	width: 100%;
+	border-top: 2px dotted blue;
+	margin-top: 5px;
+}
+

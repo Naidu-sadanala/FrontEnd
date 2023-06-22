@@ -1,0 +1,21 @@
+.h1{
+    text-align: center;
+    font-size: 30px;
+    color: hsl(271, 57%, 72%);
+    /* background-color: black; */
+}
+.btn{
+    width: 10%;
+    height: 6%;
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 2px;
+}
+.btn-m{
+    width: 10%;
+    height: 6%;
+    font-size: 1.5rem;
+    background-color: orange;
+    font-family: cursive;
+    margin: 2px;
+}

@@ -1,0 +1,63 @@
+h1{
+   text-align: center;
+}
+#div1{
+    width: 80%;
+    height: 30%;
+    background-image:linear-gradient(45deg,rgb(236, 142, 17),rgb(178, 201, 46));
+    margin: auto;
+    backdrop-filter: ;
+}
+.input{
+    display: block;
+    width: 40%;
+    height: 15%;
+    margin: auto;
+    margin-top: 3%;
+    font-style: italic;
+    border-radius: 5%;
+}
+#div-2{
+    width: 60%;
+    height: 20%;
+    background-color: gray;
+    margin: auto;
+    margin-top: 5%;
+}
+.div3{
+    width: 30%;
+    height: 100%;
+    background-color: wheat;
+    margin: auto;
+    border-top: 2px solid black;
+    /* animation: div3 1s ease-in-out infinite ; */
+}
+span{
+    display: block;
+    font-size: 60px;
+    text-align: center;
+    color: grey;
+    margin-top: 20%;
+}
+/* .div4{
+    visibility: hidden;
+    width: 30%;
+    height: 100%;
+    background-color: wheat;
+    margin: auto;
+    margin-top: 2%;
+} */
+/* @keyframes div3{
+    0%{
+        margin-top:10px
+    }
+    25%{
+        margin-top:20px
+    }
+    50%{
+        margin-top:30px
+    }
+    100%{
+        margin-top:40px
+    }
+} */
